@@ -1,0 +1,97 @@
+/*end reset*/
+
+
+
+#manage {
+	height: 90%;
+	width: 90%;
+	margin-top: 10%;
+	padding-top: 20px;
+	background-color: aliceblue;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+	vertical-align: middle;
+}
+#control{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+
+#profile {
+	height: 12%;
+	width: 90%;
+}
+
+#my_icon_bor {
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+#my_icon {
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 50%;
+	content: url("../../images/user.png")
+}
+
+#username {
+	float: left;
+	font-size: 30px;
+}
+
+
+#search_bor {
+	display: none;
+}
+
+#search_select {
+	font-size: 14px;
+	font-family: 幼圆;
+}
+
+#search_input {
+	float: left;
+	width: 70%;
+}
+
+#search_btn {
+	float: left;
+}
+
+/* 添加面板 */
+#delete{
+	display: none;
+}
+#addRel {
+	font-family: 幼圆;
+	font-size: 14px;
+	display: none;
+	width:100%;
+	height:70%;
+	overflow-y:scroll;
+}
+
+#more_input {
+	display: none;
+}
+
+.contact_input {
+	width: 50%;
+	display: inline;
+	float: left;
+}
+
+.skill_input {
+	width: 50%;
+	display: inline;
+	float: left;
+}
+.PS_input{
+	width: 50%;
+	display: inline;
+	float: left;
+}
