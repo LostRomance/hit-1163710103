@@ -1,0 +1,59 @@
+#right_part{
+    float: right;
+    height: auto;
+    width: 70%;
+    margin-top: 20px;
+}
+
+#RT_bor{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    padding: 22px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    background-color: rgb(42, 182, 61);
+
+}
+
+/*人际树*/
+.classfy_hint{
+    font-family: 幼圆;
+    font-weight:900;
+    font-size: 30px;
+    text-align:center;
+}
+.people_line{
+    overflow: hidden;
+    height:auto;
+    width: 100%;
+    border-radius:3px 3px 3px 3px;
+    background-color: blueviolet
+}
+.people{
+    width:23%;
+    height:200px;
+    margin: 1%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: aqua;
+    float: left;
+    cursor: pointer;
+}
+.people_icon{
+    height: 140px;
+    width: 140px;
+    margin-top:10% ;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 50%;
+    content: url(../../images/user.png);
+}
+.people_name{
+    font-family: 幼圆;
+    font-size: 25px;
+    text-align:center;
+    border-top: 2px solid rgb(63, 104, 236);
+    cursor: default;
+}
+

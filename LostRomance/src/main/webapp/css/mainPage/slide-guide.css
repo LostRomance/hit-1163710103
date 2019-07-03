@@ -1,0 +1,52 @@
+.guide_out_bor {
+    height: 85%;
+    width: 90%;
+    float:left;
+}
+
+.guide_ta{
+    height: 120px;
+    width: 100%;
+}
+.guide_tr{
+    text-align: center;
+    background-color: #f2f2f2;
+
+}
+.guide_td{
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+    font-size: 20px;
+    font-family:��?;
+    color: black;
+    font-weight: 900;
+    cursor : pointer;
+   	z-index:5;
+
+}
+.black_bor{
+    position: absolute;
+    top:25%;
+    left:0;
+    height:50%;
+    width:10px;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px; ;
+}
+
+#guide_td1{
+    background-color: #fb94ff;
+}
+#guide_td2{
+    background-color: #ff6cdf;
+}
+#guide_td3{
+    background-color: #cc55fc;
+}
+#guide_td4{
+    background-color: #ae00ff;
+}
